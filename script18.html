@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let str1 = "42";
+        let str2 = "3.14";
+
+        console.log(Number(str1));   // 42
+        console.log(parseInt(str2)); // 3
+        console.log(parseFloat(str2)); // 3.14
+        console.log(+str1);          // 42 (unary plus)
+        console.log(typeof +str1);   // "number"
+        let num = 123;
+
+        console.log(String(num));      // "123"
+        console.log(num + "");         // "123"
+        console.log(typeof (num + "")); // "string"
+
+        console.log(Boolean("Hello")); // true
+        console.log(Boolean(""));      // false
+
+    </script>
+</body>
+</html>
