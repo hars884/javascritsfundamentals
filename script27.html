@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const obj1 = {};
+        const obj2 = {};
+        const obj3 = obj1;
+
+        console.log(obj1 == obj2);  // false
+        console.log(obj1 === obj2); // false
+        console.log(obj1 === obj3); // true
+
+        const arr1 = [1, 2];
+        const arr2 = [1, 2];
+        const arr3 = arr1;
+
+        console.log(arr1 == arr2);  // false
+        console.log(arr1 === arr2); // false
+        console.log(arr1 === arr3); // true
+
+    </script>
+</body>
+</html>
