@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        //declaration-hoisted can call before function appear
+        console.log(square(5)); //25
+        function square(n) {
+            return n * n;
+        }
+
+        //expression- not hoisted cannot call before function appear
+        // console.log(add(2,3)); //error add is not defined
+        let add = function(a, b) {
+            return a + b;
+        };
+        console.log(add(2,3)); //5
+        //
+    </script>
+</body>
+</html>
