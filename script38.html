@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function getDayName(number) {
+            switch (number) {
+                case 1: return "Monday";
+                case 2: return "Tuesday";
+                case 3: return "Wednesday";
+                case 4: return "Thursday";
+                case 5: return "Friday";
+                case 6: return "Saturday";
+                case 7: return "Sunday";
+                default: return "Invalid day";
+            }
+        }
+
+        console.log(getDayName(3)); //Wednesday
+        console.log(getDayName(8)); //Invalid day
+
+    </script>
+</body>
+</html>

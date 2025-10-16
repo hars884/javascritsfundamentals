@@ -6,6 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <script>
+        let a = true;
+        let b = true;
+        let c = true;
+
+        if (a && b && c) {
+            console.log("all three are true");
+        } else {
+            console.log("at least one is false");
+        }
+        a = false;
+        b = false;
+
+        if (a || b || c) {
+            console.log("at least one is true");
+        } else {
+            console.log("all are false");
+        }
+
+    </script>
 </body>
 </html>

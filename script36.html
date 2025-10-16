@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function forsum(n) {
+            let sum = 0;
+            for (let i = 1; i <= n; i++) {
+                sum += i;
+            }
+            return sum;
+        }
+        console.log(forsum(5)); // 15
+        function wilsum(n) {
+            let sum = 0;
+            let i = 1;
+            while (i <= n) {
+                sum += i;
+                i++;
+            }
+            return sum;
+        }
+        console.log(wilsum(5)); // 15
+
+    </script>
+</body>
+</html>

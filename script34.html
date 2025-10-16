@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        console.log(0 || 5);   // 5
+        console.log(0 ?? 5);   // 0
+
+        console.log("" || "def"); // "def"
+        console.log("" ?? "def"); // ""
+        // || - use right side if left is false
+        // ?? - use right side if left is null or undefined
+        let u = 0;
+        let x = u ?? 10;
+        console.log(x); // 0
+        // let x = null || 5 ?? 10; cant use like this error
+
+        //Correct with parentheses
+        x = (null || 5) ?? 10;
+        console.log(x);
+    </script>
+</body>
+</html>
