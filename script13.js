@@ -1,25 +1,25 @@
 let str = "Hello World";
-console.log(typeof str); // "string"
+console.log(typeof str); //string
 
-let num1 = 42;
+let num1 = 5;
 let num2 = 3.14;
-console.log(typeof num1); // "number"
-console.log(typeof num2); // "number"
+console.log(typeof num1); //number
+console.log(typeof num2); //number
 
 let n = null;
-console.log(typeof n); // "object" known JS bug
+console.log(typeof n); //object js bug
 
 let u;
-console.log(typeof u); // "undefined"
+console.log(typeof u); //undefined
 
-let isReady = true;
-console.log(typeof isReady); // "boolean"
+let bool = true;
+console.log(typeof bool); //boolean
 
 let sym = Symbol("id");
-console.log(typeof sym); // "symbol"
+console.log(typeof sym); //symbol
 
 let big = 1234567890123456789012345678901234567890n;
-console.log(typeof big); // "bigint"
+console.log(typeof big); //bigint
 
 //undefined- a variable is declared but the value is not defined
-// null it has no value
+// null- it has no value

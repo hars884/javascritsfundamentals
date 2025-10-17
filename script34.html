@@ -12,6 +12,9 @@
 
         console.log("" || "def"); // "def"
         console.log("" ?? "def"); // ""
+        console.log(null ?? undefined); // undefined
+        console.log(null || undefined); // undefined
+
         // || - use right side if left is false
         // ?? - use right side if left is null or undefined
         let u = 0;
